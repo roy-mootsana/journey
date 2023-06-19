@@ -118,9 +118,11 @@ body .progress_inner__step label {
   display: block;
   position: relative;
   cursor: pointer;
+  color: white;
 }
 body .progress_inner__step:hover {
   color: white;
+  font-weight: bold;
 }
 body .progress_inner__step:hover:before {
   color: white;
@@ -129,11 +131,13 @@ body .progress_inner__step:hover:before {
 
 body {
   font-family: "Nunito", sans-serif;
-  background: #a6cde2;
+  background: url("https://i.ibb.co/kJ56y6t/Background-TEAMS-Neon-Highlight.jpg");
+  background-size: cover;
   color: #2e6c8e;
   text-align: center;
   font-weight: 900;
 }
+
 body .progress_inner {
   height: 200px;
   width: 700px;
