@@ -102,7 +102,15 @@ body .progress_inner__step:before {
   cursor: pointer;
   pointer-events: none;
 }
+body .progress_inner__tabs .tab ul {
+ text-align: left;
+ font-weight: 400; /* Add left padding to create bullet points */
+}
 
+body .progress_inner__tabs .tab li {
+  list-style-type: disc; /* Use disc style for bullet points */
+  margin-bottom: 10px; /* Adjust spacing between list items */
+}
 body .progress_inner__step {
   width: 20%;
   font-size: 14px;
