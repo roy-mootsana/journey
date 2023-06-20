@@ -139,7 +139,7 @@ body {
 }
 
 body .progress_inner {
-  height: 200px;
+  height: 300px;
   width: 700px;
 }
 body .progress_inner #step-5:checked + div {
@@ -214,6 +214,16 @@ body .progress_inner__bar--set {
   position: relative;
   z-index: -2;
 }
+
+TEST{
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 30%;
+  height: auto;
+}
+
 body .progress_inner__tabs .tab {
   opacity: 0;
   position: absolute;
